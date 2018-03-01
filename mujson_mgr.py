@@ -224,9 +224,9 @@ Options:
   -u USER              the user name
   -p PORT              server port (only this option must be set if add a user)
   -k PASSWORD          password
-  -m METHOD            encryption method, default: aes-128-ctr
-  -O PROTOCOL          protocol plugin, default: auth_aes128_md5
-  -o OBFS              obfs plugin, default: tls1.2_ticket_auth_compatible
+  -m METHOD            encryption method, default: none
+  -O PROTOCOL          protocol plugin, default: auth_chain_a
+  -o OBFS              obfs plugin, default: http_simple
   -G PROTOCOL_PARAM    protocol plugin param
   -g OBFS_PARAM        obfs plugin param
   -t TRANSFER          max transfer for G bytes, default: 8388608 (8 PB or 8192 TB)
